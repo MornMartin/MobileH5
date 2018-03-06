@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>2017运营数据</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,user-scalable = no">
+<link rel="stylesheet" type="text/css" href="css/index.css">
+<script type="text/javascript" src="js/chinaMapConfig.js"></script>
+<script type="text/javascript" src="js/custormersConfig.js"></script>
+<script type="text/javascript" src="js/pieConfig.js"></script>
+<script type="text/javascript" src="js/trapezeConfig.js"></script>
+<script type="text/javascript" src="js/cashConfig.js"></script>
+<script type="text/javascript" src="js/functions.js"></script>
+</head>
+<body>
+<div id="wrap">
+	<section class="page" id="index">
+		<!--首页-->
+		<div class="scale-box">
+			<div class="year">
+				<span class="line"></span>
+				<span class="content">2017</span>
+			</div>
+			<h1 class="title">运营数据</h1>
+			<h2 class="sub-title">The Data Of <i>The Football Club</i></h2>
+			<div class="icoin"></div>
+		</div>
+	</section>
+	<section class="page">
+		<!--第二页-->
+		<div class="scale-box">
+			<div class="t-active">
+				<header class="title-box"><span>客户分布区域</span></header>
+				<div class="map-box">
+					<svg width="100%" height="100%" version="1.1" xmlns="http://www.w3.org/2000/svg" id = 'map'></svg>
+				</div>
+			</div>
+			<div class="banner c-from">
+				<h3>客户主要来源地</h3>
+				<div class="content">
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="page" id="page3">
+		<!--第三页-->
+		<div class="scale-box">
+			<div class="t-member">
+				<header class="title-box"><span>全年客户统计</span></header>
+				<div class="chart">
+					<div class="m-tag-bar">
+						<span class="m-tag">客户增量</span>
+						<span class="m-tag">客户流失率</span>
+						<span class="m-tag">客户盈利</span>
+					</div>
+					<div class="m-img">
+						<span class="m-dashedline"></span>
+						<span class="m-base">1%</span>
+						<span class="m-staff">1%</span>
+						<span class="m-staff">0</span>
+					</div>
+					<div class="m-dial-bar">
+						<span class="m-dial">1月</span>
+						<span class="m-dial">2月</span>
+						<span class="m-dial">3月</span>
+						<span class="m-dial">4月</span>
+						<span class="m-dial">5月</span>
+						<span class="m-dial">6月</span>
+						<span class="m-dial">7月</span>
+						<span class="m-dial">8月</span>
+						<span class="m-dial">9月</span>
+						<span class="m-dial">10月</span>
+						<span class="m-dial">11月</span>
+						<span class="m-dial">12月</span>
+					</div>
+					<p class="m-remarks">备注：三条曲线纵坐标采用不同计量单位</p>
+				</div>
+			</div>
+			<div class="t-age">
+				<header class="title-box"><span>客户年龄段统计</span></header>
+				<div class="chart clearFix">
+					<!--施工中-->
+					<div class="t-a-img">
+						<svg width="100%" height="100%" version="1.1" xmlns="http://www.w3.org/2000/svg" id = 'trapeze'>
+						</svg>
+					</div>
+					<div class="t-a-tags">
+						<!-- <div class="t-a-tag"><span class="icoin"></span><span>年龄</span></div> -->
+					</div>
+				</div>
+			</div>
+			<div class="banner c-tag">
+				<h3>客户标签统计</h3>
+				<div class="content">
+					<div class="c-tag-cont">
+		<!-- 				<div class="c-tag-item clearFix"><span class="icoin"></span><span>程序员</span></div> -->
+					</div>
+					<div class="pie-box">
+						<svg width="100%" height="100%" version="1.1" xmlns="http://www.w3.org/2000/svg" id = 'pie'></svg>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="page">
+		<!--第四页-->
+		<div class="scale-box">
+			<div class="t-times">
+				<header class="title-box"><span>2017年交易笔数</span></header>
+				<div class="chart">
+					<div class="t-t-cont">
+						<mark>1</mark>
+						<mark>6</mark>
+						<mark>3</mark>
+						<mark>5</mark>
+						<i>.</i>
+						<mark>3</mark>
+						<mark>5</mark>
+						<em>笔</em>
+					</div>
+				</div>
+			</div>
+			<div class="t-cash">
+				<header class="title-box"><span>全年交易额</span></header>
+				<div class="chart">
+					<div class="t-c-img">	
+						<svg width="100%" height="100%" version="1.1" xmlns="http://www.w3.org/2000/svg" id = 'cash'></svg>
+					</div>
+					<div class="t-c-title clearFix">
+						<span>第一季度</span>
+						<span>第二季度</span>
+						<span>第三季度</span>
+						<span>第四季度</span>
+					</div>
+				</div>
+			</div>
+			<div class="t-profit">
+				<header class="title-box"><span>客户盈利</span></header>
+				<div class="chart">
+					<div class="t-p-cont clearFix">
+						<span>全年客户人均获得盈利</span>
+						<span>28985.00（元）</span>
+					</div>
+					<span class="dashedline"></span>
+					<div class="t-p-cont clearFix">
+						<span>单月人均获得最高盈利</span>
+						<span>1957.00（元）</span>
+					</div>
+				</div>
+			</div>
+			<div class="t-about">
+				<header class="title-box"><span>客户拿到盈利都做了什么？</span></header>
+				<div class="chart">
+					<div class="t-about-img">
+						<img src="img/bg_rada.png">
+						<span class="t-about-tag">提高生活品质</span>
+						<span class="t-about-tag">还房贷</span>
+						<span class="t-about-tag">补贴油费</span>
+						<span class="t-about-tag">损益率</span>
+						<span class="t-about-tag">旅游</span>
+						<span class="t-about-tag">其他</span>
+						<span class="t-about-tag">还车贷</span>
+					</div>
+					<div class="t-about-top">
+						<h4>TOP3</h4>
+						<p>
+							<span class="icoin">1</span>
+							提高生活品质。买买买，男人/女人就是要对自己好点,同时拉动国家社会经济
+						</p>
+						<p>
+							<span class="icoin">2</span>
+							还车贷。不管是五菱还是GK5每个20岁的年轻人都该有辆车
+						</p>
+						<p>
+							<span class="icoin">3</span>
+							还房贷。房子买了压力大，用盈利抵消房贷
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="page">
+		<!--第五页-->
+		<div class="scale-box">
+			<h2 class="bless-title font-72">恭贺2018</h2>
+			<div class="banner bless">
+				<h3>新年献词</h3>
+				<div class="content">
+					<p>
+						2017已经走完，马上是新的一年，又代表新的希望。去年12月我们开始了这个体育竞技赔率项目，从非常低的交易量走到现在。一直在稳中求进。首先保证稳固，信誉。感谢各位对我们团队的信任，新年寄语说不出什么特别高大上的，就一句话——努力提高业务技能，为客户朋友在稳健的基础上去创造利润。祝大家以及家人新的一年一切顺利！
+					</p>
+					<span class="icoin"></span>
+					<div class="inscribe">
+						<span>The Football Club</span>
+						<time>2017.12.28</time>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<div class="arrow">
+		<span></span>
+	</div>
+	<button class="audio" id="audio"></button>
+</div>
+<script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>
